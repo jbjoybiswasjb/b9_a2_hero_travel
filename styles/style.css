@@ -1,6 +1,14 @@
+/* Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Mulish', sans-serif;
 }
 
 img {
@@ -11,4 +19,148 @@ img {
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --font_weight_800: 800;
+    --font_weight_700: 700;
+    --font_weight_400: 400;
+    --common_font_size: 1em;
+    --common_color_1: #FF5400;
+    --common_color_2: #5A5A5D;
+    --common_color_3: #131318;
+    --common_color_4: rgba(19, 19, 24, 0.70);
+    --nav_menu_color: #424247;
+}
+
+.common_button {
+    border: none;
+    color: #fff;
+    padding: 1em 1.5em;
+    background-color: #FF5400;
+    font-weight: var(--font_weight_800);
+    font-size: 1.25em;
+}
+
+.common_margin {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+
+/* 
+                                        Header.
+=========================================================================================
+*/
+header {
+    margin: 3.125em 0;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_flex h3 {
+    font-size: 2.25em;
+    font-weight: var(--font_weight_800);
+    margin-left: .5em;
+    color: var(--common_color_3);
+}
+
+.header_flex h3 span {
+    color: var(--common_color_1);
+}
+
+.header_navigation ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.75em;
+}
+
+.header_navigation ul li a {
+    color: #424247;
+    font-weight: var(--font_weight_400);
+    font-size: 1.125em;
+}
+
+.header_navigation span {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+                                        Responsive CSS.
+=========================================================================================
+*/
+
+@media screen and (max-width: 600px) {
+    
+    /* 
+                                        Header.
+    =====================================================================================
+    */
+    header {
+        margin: 1.125em 0;
+    }
+    
+    .header_flex img {
+        width: 2em;
+        height: 1.3em;
+    }
+
+    .header_flex h3 {
+        font-size: 1.3125em;
+        margin-left: .5em;
+    }
+
+    .header_navigation ul {
+        display: none;
+    }
+
+    .header_navigation span {
+        display: block;
+        font-size: 1.5em;
+        color: var(--common_color_3);
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    
+    /* 
+                                            Header.
+    =====================================================================================
+    */
+    header>div.header_flex {
+        flex-direction: column;
+        gap: 1em;
+    }
 }
