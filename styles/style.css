@@ -222,6 +222,7 @@ button {
 
 .popular_tour_button {
     padding: 0.875em 2.125em;
+    width: auto;
 }
 
 
@@ -318,7 +319,7 @@ button {
 
 
 /* 
-                                Choose destination section.
+                                Why choose us section.
 =============================================================================
 */
 #why_us_section {
