@@ -102,6 +102,14 @@ header {
     font-size: 1.125em;
 }
 
+.header_navigation ul li a:hover {
+    color: var(--common_color_1);
+}
+
+#nav_home {
+    color: var(--common_color_1);
+}
+
 .header_navigation span {
     display: none;
 }
