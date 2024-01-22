@@ -692,23 +692,80 @@ button {
     padding: 2em;
 }
 
-.new_grid  img {
+.new_grid img {
     height: 100%;
     border-radius: 1em;
 }
 
-img{
+img {
     transition: .5s;
 }
 
-.new_grid div:hover img{
+.new_grid div:hover img {
     transform: scale(.9);
 }
 
 
 
+/* 
+                                            Footer.
+=========================================================================================
+*/
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 6.875em 0;
+}
 
+.footer_margin {
+    width: 65%;
+    margin: 0 auto;
+}
 
+.footer_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_flex h5 {
+    font-size: 2em;
+    font-weight: var(--font_weight_800);
+    color: var(--common_color_3);
+    margin-left: .3em;
+}
+
+.footer_flex h5 span {
+    color: var(--common_color_1);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+footer ul li a {
+    font-size: 2em;
+    color: #424247;
+}
+
+footer p {
+    margin: 0.9375em 0 2.0625em;
+}
+
+footer hr {
+    border: 0.0625em solid rgba(19, 19, 24, 0.10);
+    margin: 3.125em;
+}
+
+footer .copyright_footer {
+    color: var(--common_color_3);
+    font-size: var(--common_font_size);
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    display: block;
+}
 
 
 
@@ -1040,16 +1097,16 @@ img{
         width: 100%;
         box-sizing: border-box;
     }
-    
+
     .newslatter_text h4 {
         font-size: .5em;
         margin-bottom: 0em;
     }
-    
+
     .newslatter_text p {
         margin-bottom: 0em;
     }
-    
+
     .newslatter_text div input {
         width: 100%;
         padding: 1em 1.25em;
@@ -1057,24 +1114,24 @@ img{
         border-radius: .5em;
         box-sizing: border-box;
     }
-    
+
     .newslatter_button {
         margin-top: .5em;
         width: 100%;
     }
-    
+
     .newslatter_right {
         width: 100%;
     }
-    
+
     .newslatter_angle p {
         font-size: .8em;
     }
-    
+
     .newslatter_angle h5 {
         font-size: 1.2em;
     }
-    
+
 
     /* 
                                 New section.
@@ -1084,6 +1141,32 @@ img{
         grid-template-columns: 1fr;
     }
 
+
+    /* 
+                                            Footer.
+    ====================================================================================
+    */
+    footer {
+        padding: 2em 0;
+    }
+    
+    .footer_margin {
+        width: 80%;
+    }
+
+    .footer_flex h5 {
+        font-size: 1.5em;
+        margin-left: .1em;
+    }
+
+    footer p {
+        margin: 0.5em 0 1em;
+    }
+    
+    footer hr {
+        border: 0.0625em solid rgba(19, 19, 24, 0.10);
+        margin: 1em;
+    }
 
 }
 
@@ -1253,16 +1336,16 @@ img{
         width: 100%;
         box-sizing: border-box;
     }
-    
+
     .newslatter_text h4 {
         font-size: .5em;
         margin-bottom: 0em;
     }
-    
+
     .newslatter_text p {
         margin-bottom: 0em;
     }
-    
+
     .newslatter_text div input {
         width: 100%;
         padding: 1em 1.25em;
@@ -1270,26 +1353,26 @@ img{
         border-radius: .5em;
         box-sizing: border-box;
     }
-    
+
     .newslatter_button {
         margin-top: .5em;
         width: 100%;
     }
-    
+
     .newslatter_right {
         width: 100%;
     }
-    
+
     .newslatter_angle p {
         font-size: 1em;
     }
-    
+
     .newslatter_angle h5 {
         font-size: 1.5em;
     }
 
 
-        
+
 
     /* 
                                 New section.
