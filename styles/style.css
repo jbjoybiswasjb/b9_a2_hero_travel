@@ -400,7 +400,7 @@ button {
 
 
 /* 
-                                Discount section section.
+                                Discount section.
 =============================================================================
 */
 #discount_section {
@@ -428,16 +428,66 @@ button {
     display: flex;
     justify-content: flex-end;
     padding: 3.5em;
+    margin-bottom: 1.5em;
+    border-radius: 1em;
+}
+
+.discount_common_middle {
+    background-image: url("../images/Group\ 40.png");
+    justify-content: flex-start;
 }
 
 .discount_width {
-    width: 60%;
+    width: 45%;
     border-radius: var(--common_font_size);
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     padding: 3.125em;
 }
+
+.discount_width ul {
+    display: flex;
+    gap: 1.5em;
+    margin: 1.625em 0 1em;
+}
+
+.discount_width ul li i {
+    color: var(--common_color_1);
+}
+
+.discount_width ul li,
+.discount_width p {
+    color: var(--common_color_2);
+    font-size: var(--common_font_size);
+    font-weight: var(--font_weight_400);
+}
+
+.discount_width h4 {
+    color: var(--common_color_3);
+    font-size: 1.5em;
+    font-weight: var(--font_weight_800);
+    margin-bottom: 1em;
+}
+
+.discount_width span {
+    color: var(--common_color_1);
+    font-size: 1.25em;
+    font-weight: var(--font_weight_800);
+    display: block;
+    margin: 1em 0 1.5em;
+}
+
+.deals_button {
+    text-align: center;
+    display: block;
+}
+
+
+
+
+
+
 
 
 
@@ -668,22 +718,42 @@ button {
     }
 
     .discount_common {
-        background-image: url("../images/Group\ 39.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        padding: 3.5em;
-        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 1.5em;
+        margin-bottom: 1em;
     }
-
+    
+    .discount_common_middle {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
     .discount_width {
-        width: 60%;
-        border-radius: var(--common_font_size);
-        border: 2px solid #FFF;
-        background: rgba(255, 255, 255, 0.80);
-        backdrop-filter: blur(2.5px);
+        width: 100%;
+        padding: 1.5em;
+        margin-top: 60%;
+    }
+    
+    .discount_width ul {
+        gap: 1em;
+        margin: 1em 0 .5em;
+        flex-wrap: wrap;
+    }
+    
+    .discount_width ul li,
+    .discount_width p {
+        font-size: 0.875em;
+    }
+    
+    .discount_width h4 {
+        font-size: 1.25em;
+        margin-bottom: .5em;
+    }
+    
+    .discount_width span {
+        font-size: 1em;
+        margin: .5em 0 1em;
     }
 
 
