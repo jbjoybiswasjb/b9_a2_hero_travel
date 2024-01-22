@@ -484,7 +484,91 @@ button {
 }
 
 
+/* 
+                                Perfect place section.
+=============================================================================
+*/
+#perfect_place_section {
+    margin: 6.25em 0;
+}
 
+.perfect_place {
+    gap: 3.3125em;
+}
+
+.perfect_place_left {
+    width: 50%;
+}
+
+.perfect_place_left h3 {
+    font-weight: var(--font_weight_800);
+    color: var(--common_color_3);
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.perfect_place_left p {
+    font-size: var(--common_font_size);
+    font-size: var(--font_weight_400);
+    color: var(--common_color_4);
+}
+
+.perfect_place_left ul {
+    list-style: disc;
+    color: var(--common_color_4);
+    padding-left: 1.5em;
+}
+
+.perfect_place_left ul li p {
+    margin: 1.5em 0;
+    font-size: var(--common_font_size);
+    font-weight: var(--font_weight_700);
+    color: var(--common_color_3);
+}
+
+.popular_tour_left_p_color {
+    color: var(--common_color_2);
+    padding: 1.5em 0 2em;
+}
+
+.perfect_place_button {
+    padding: 0.875em 2.125em;
+    width: auto;
+}
+
+.video_class {
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.video_class video {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.video_content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: var(--font_weight_700);
+}
+
+.video_content h4 {
+    padding: 5em;
+    text-align: center;
+}
 
 
 
@@ -723,34 +807,34 @@ button {
         padding: 1.5em;
         margin-bottom: 1em;
     }
-    
+
     .discount_common_middle {
         justify-content: center;
         align-items: flex-end;
     }
-    
+
     .discount_width {
         width: 100%;
         padding: 1.5em;
         margin-top: 60%;
     }
-    
+
     .discount_width ul {
         gap: 1em;
         margin: 1em 0 .5em;
         flex-wrap: wrap;
     }
-    
+
     .discount_width ul li,
     .discount_width p {
         font-size: 0.875em;
     }
-    
+
     .discount_width h4 {
         font-size: 1.25em;
         margin-bottom: .5em;
     }
-    
+
     .discount_width span {
         font-size: 1em;
         margin: .5em 0 1em;
@@ -758,7 +842,64 @@ button {
 
 
 
+    /* 
+                                Perfect place section.
+=============================================================================
+*/
+    #perfect_place_section {
+        margin: 2em 0;
+    }
+
+    .perfect_place {
+        gap: 1.5em;
+    }
+
+    .perfect_place_left {
+        width: 95%;
+    }
+
+    .perfect_place_left h3 {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .perfect_place_left p {
+        font-size: 0.875em;
+    }
+
+    .perfect_place_left ul {
+        padding-left: 1em;
+    }
+
+    .perfect_place_left ul li p {
+        margin: 1em 0;
+        font-size: 0.875em;
+    }
+
+    .popular_tour_left_p_color {
+        padding: 1em 0 1em;
+    }
+
+    .perfect_place_button {
+        padding: 0.875em 2.125em;
+        width: auto;
+    }
+
+    .video_class {
+        width: 100%;
+    }
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -879,5 +1020,21 @@ button {
 
     .destination_row_3 {
         grid-template-columns: 1fr;
+    }
+
+    
+    /* 
+                                Perfect place section.
+    =============================================================================
+    */
+    .perfect_place_left {
+        width: 95%;
+    }
+
+    #perfect_place_section {
+        margin: 2em 0;
+    }
+    .video_class {
+        width: 100%;
     }
 }
